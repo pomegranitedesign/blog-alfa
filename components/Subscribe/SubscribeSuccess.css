@@ -1,0 +1,11 @@
+.Container {
+  color: #ffffff;
+  background: #ffffff;
+}
+
+.Description {
+  font-weight: normal;
+  font-size: 14px;
+  text-align: left;
+  color: #23252e;
+}

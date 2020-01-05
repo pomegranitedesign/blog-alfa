@@ -1,0 +1,25 @@
+.SharingBlock {
+    text-align: center;
+    padding: 30px 40px;
+    background: #FFF;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05), 0 2px 16px 0 rgba(0, 0, 0, .05);
+    border-radius: 5px;
+
+    @media screen and (max-width: 800px) {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
+
+.SharingBlockHeading {
+    color: #9AA1B8;
+    letter-spacing: .58px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.SharingBlockButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

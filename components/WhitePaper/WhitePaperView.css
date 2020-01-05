@@ -1,0 +1,74 @@
+.Container {
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  font-family: Montserrat, sans-serif;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.ContainerHorizontal {
+  flex-direction: row;
+  padding: 25px 40px 36px 30px;
+}
+
+.PaperIcon {
+  margin-top: 30px;
+}
+
+.PaperIconHorizontal {
+  margin: 0;
+}
+
+.Text {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.TextHorizontal {
+  text-align: left;
+}
+
+.Header {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 26px;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  color: #23252e;
+  font-family: 'Lora', sans-serif;
+  margin-top: 35px;
+}
+
+.Description {
+  font-size: 16px;
+  line-height: 23px;
+  margin-top: 10px;
+  color: #444757;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  width: 300px;
+}
+
+.Button {
+  margin-top: 20px;
+  background: #ffbf47;
+  box-shadow: 0 20px 40px rgba(255, 191, 71, 0.35);
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 40px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  width: 220px;
+  height: 50px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  font-family: Montserrat, sans-serif;
+}

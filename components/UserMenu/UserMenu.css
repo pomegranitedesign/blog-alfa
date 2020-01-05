@@ -1,0 +1,17 @@
+.List {
+    margin: 10px 0;
+    list-style: none;
+    @media screen and (max-width: 800px) {
+        margin: 0 0 13px 0;
+        display: inline-block;
+        position: relative;
+        z-index: 5;
+    }
+}
+
+.Wrapper {
+    @media screen and (max-width: 800px) {
+        overflow: hidden;
+        padding-top: 17px;
+    }
+}

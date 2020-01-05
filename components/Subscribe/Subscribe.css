@@ -1,0 +1,10 @@
+.Box {
+    background: linear-gradient(218.5deg, #FB9B8F 0%, #FEC762 97.91%);
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    max-width: 450px;
+    @media (max-width: 1280px) and (min-width: 1025px) {
+        width: 370px;
+    }
+}

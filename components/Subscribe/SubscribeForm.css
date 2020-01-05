@@ -1,0 +1,109 @@
+.Container {
+  color: #ffffff;
+  background: #ffffff;
+}
+
+.Heading {
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.Text {
+  font-size: 16px;
+  line-height: 30px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.Icon {
+  margin-top: 30px;
+}
+
+.ButtonContainer button {
+  margin-top: 20px;
+}
+
+.Input {
+  width: 100%;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 14px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  min-width: 190px;
+  height: 23px;
+}
+
+.Input::placeholder {
+  color: #ffffff;
+}
+
+.Input::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.Form {
+  width: 100%;
+}
+
+.Button {
+  font-size: 14px;
+  border: none;
+  -webkit-appearance: none;
+  outline: none;
+  margin-bottom: 30px;
+}
+
+.Button:hover {
+  cursor: pointer;
+}
+
+.OpaqueButton {
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
+  transition: 0.4s background;
+  height: 50px;
+  padding-right: 38px;
+  padding-left: 38px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: inherit;
+  width: 220px;
+}
+
+.OpaqueButton:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.OpaqueButton:active {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.InvalidEmail {
+  background-size: contain;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 17px;
+  margin-top: 10px;
+  margin-bottom: 31px;
+}
+
+.ErrorMessage {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+  color: #ff8d85;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.ErrorIcon {
+  color: #ff8d85;
+  margin-top: 10px;
+}

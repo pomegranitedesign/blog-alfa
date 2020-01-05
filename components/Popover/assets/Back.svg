@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Icons/Cross</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Notifications" transform="translate(-33.000000, -63.000000)" fill="#9AA1B8" fill-rule="nonzero">
+            <g id="Icons/Back-arrow" transform="translate(30.000000, 60.000000)">
+                <polygon id="Shape" points="16.6666667 9.16666667 6.52222222 9.16666667 11.1777778 4.51111111 10 3.33333333 3.33333333 10 10 16.6666667 11.1777778 15.4888889 6.52222222 10.8333333 16.6666667 10.8333333"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
